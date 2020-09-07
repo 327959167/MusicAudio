@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>龙金音悦台</header>
+    <header>音悦台</header>
     <section>
         <ul>
             <li>不败的英雄 - 唐俊迪、张志林</li>
@@ -61,7 +61,7 @@
             "./audio/Brave Love,TIGA - 地球防衛団.mp3",
         ]
 
-        for (var i = 0; i <lis.length; i++) {
+        for (var i = 0; i < lis.length; i++) {
             lis[i].onclick = function() {
                 for (var i = 0; i < arr.length; i++) {
                     if (this == lis[i]) {
@@ -75,7 +75,7 @@
                             if (a > lis.length - 1) {
                                 a = 0;
                             }
-                            for (var j = 0; j <lis.length; j++) {
+                            for (var j = 0; j < lis.length; j++) {
                                 lis[j].className = '';
                             }
                             ado.src = arr[a];
