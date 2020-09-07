@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@fontSize : 50;
+
+body {
+    width: 820rem / @fontSize;
+    overflow: auto;
+    margin: 40rem / @fontSize auto;
+}
+
+header,
+footer {
+    height: 50rem / @fontSize;
+    line-height: 50rem / @fontSize;
+    background-color: darkorange;
+    text-align: center;
+    font-size: 16rem / @fontSize;
+    color: white;
+}
+
+ul {
+    height: 650rem / @fontSize;
+    overflow: auto;
+}
+
+li {
+    height: 50rem / @fontSize;
+    line-height: 50rem / @fontSize;
+    border: 1px solid red;
+    border-top: none;
+    font-size: 16rem / @fontSize;
+    text-indent: 20rem / @fontSize;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+li:hover {
+    background-color: lightgray;
+}
+
+#ado {
+    width: 100%;
+    height: 40rem / @fontSize;
+    margin-top: 15rem / @fontSize;
+}
+
+.sty {
+    background-color: hotpink;
+}
